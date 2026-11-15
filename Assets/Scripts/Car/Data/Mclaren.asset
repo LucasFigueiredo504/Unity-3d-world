@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e189cb341bd6804dbb19e2b939c47b5, type: 3}
+  m_Name: Mclaren
+  m_EditorClassIdentifier: 
+  displayName: McLaren
+  modelPrefab: {fileID: 5872416977072416329, guid: b86ab00e9673ecf46a90beed23db7e54,
+    type: 3}
+  mass: 1400
+  centerOfMassOffset: {x: 0, y: -0.6, z: 0}
+  downforce: 150
+  drag: 0.35
+  maxSpeed: 70
+  maxReverseSpeed: 9
+  motorTorque: 3900
+  brakeTorque: 2500
+  handbrakeTorque: 6000
+  engineBrakeTorque: 150
+  maxSteerAngle: 32
+  highSpeedSteerAngle: 7
+  suspensionDistance: 0.25
+  suspensionFrequency: 1.5
+  dampingRatio: 0.45
+  suspensionTarget: 0.5
+  antiRollForce: 5000
+  wheelMass: 20
+  forceAppPointDistance: 0.1
+  wheelDampingRate: 0.25
+  forwardStiffness: 1.6
+  sidewaysStiffness: 1.7
+  handbrakeGripMultiplier: 0.45
+  maxNitro: 100
+  nitroDrainPerSecond: 25
+  nitroSpeedMultiplier: 1.3
+  nitroTorqueMultiplier: 2
