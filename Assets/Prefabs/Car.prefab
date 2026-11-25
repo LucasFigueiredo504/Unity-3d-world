@@ -304,25 +304,25 @@ MonoBehaviour:
     handbrake: 0
     meshRotationOffset: {x: 0, y: 0, z: 90}
   - collider: {fileID: 3107057317081704989}
-    mesh: {fileID: 3932448347860605852}
+    mesh: {fileID: 6900765917485821753}
     steer: 1
     drive: 0
     handbrake: 0
     meshRotationOffset: {x: 0, y: 0, z: 90}
   - collider: {fileID: 6865205120460815716}
-    mesh: {fileID: 6900765917485821753}
+    mesh: {fileID: 3932448347860605852}
     steer: 0
     drive: 1
-    handbrake: 0
+    handbrake: 1
     meshRotationOffset: {x: 0, y: 0, z: 90}
   - collider: {fileID: 362032478368651918}
     mesh: {fileID: 6256891667593584117}
     steer: 0
     drive: 1
-    handbrake: 0
+    handbrake: 1
     meshRotationOffset: {x: 0, y: 0, z: 90}
   steerResponse: 5
-  startEngineOnStart: 1
+  startEngineOnStart: 0
   ignitionTime: 1.5
   startingNitro: 0
   minNitroToStart: 5
@@ -412,7 +412,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5872416977072416329}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 8c5936284d63db04694136096dcfe109, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -424,7 +424,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.03, y: 1.04, z: 5.17}
+  m_Size: {x: 2.5, y: 1.04, z: 5.17}
   m_Center: {x: 0, y: 0.68, z: -0.23}
 --- !u!114 &1082641367549943492
 MonoBehaviour:
@@ -586,7 +586,22 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 3bcf24048f7687c47add0399b9b0df90, type: 2}
+      objectReference: {fileID: 2100000, guid: 8bba7913809275e43a02a8ce23cf5fdf, type: 2}
+    - target: {fileID: -6793846317455559080, guid: 2345f2d5954ab7949891c3d008a317da,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: ba9b64dd8b335a54eaaffd1efb28c537, type: 2}
+    - target: {fileID: -6793846317455559080, guid: 2345f2d5954ab7949891c3d008a317da,
+        type: 3}
+      propertyPath: m_Materials.Array.data[4]
+      value: 
+      objectReference: {fileID: 2100000, guid: 86233d8bcc8660345be3e6826d9ce65f, type: 2}
+    - target: {fileID: -6793846317455559080, guid: 2345f2d5954ab7949891c3d008a317da,
+        type: 3}
+      propertyPath: m_Materials.Array.data[5]
+      value: 
+      objectReference: {fileID: 2100000, guid: d3b807700edb95f45b6bbb4199592390, type: 2}
     - target: {fileID: -269311329223060688, guid: 2345f2d5954ab7949891c3d008a317da,
         type: 3}
       propertyPath: m_Layer
@@ -607,6 +622,16 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 1790322702555895918, guid: 2345f2d5954ab7949891c3d008a317da,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 54af9f668d4070344826526703a0644d, type: 2}
+    - target: {fileID: 1790322702555895918, guid: 2345f2d5954ab7949891c3d008a317da,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 511ed78924e684748ae356d5079f935f, type: 2}
     - target: {fileID: 4257386281963140943, guid: 2345f2d5954ab7949891c3d008a317da,
         type: 3}
       propertyPath: m_Layer

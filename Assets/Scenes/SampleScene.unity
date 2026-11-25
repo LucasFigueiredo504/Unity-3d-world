@@ -1347,11 +1347,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1363543253780021321, guid: b86ab00e9673ecf46a90beed23db7e54,
-        type: 3}
-      propertyPath: startEngineOnStart
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2627269170179592693, guid: b86ab00e9673ecf46a90beed23db7e54,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1402,17 +1397,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2644743485637284281, guid: b86ab00e9673ecf46a90beed23db7e54,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2644743485637284281, guid: b86ab00e9673ecf46a90beed23db7e54,
-        type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 8c5936284d63db04694136096dcfe109,
-        type: 2}
     - target: {fileID: 5872416977072416329, guid: b86ab00e9673ecf46a90beed23db7e54,
         type: 3}
       propertyPath: m_Name
@@ -1461,6 +1445,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 1839479756893118227, guid: 6ebbb008ef980ec4fb58b63bed7d141e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3658485f32f78fd45a491371e9e040bf, type: 2}
     - target: {fileID: 5214947349162192814, guid: 6ebbb008ef980ec4fb58b63bed7d141e,
         type: 3}
       propertyPath: m_Name
